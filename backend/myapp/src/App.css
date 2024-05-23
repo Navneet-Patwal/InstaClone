@@ -1,0 +1,54 @@
+/* font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+/* 
+ black text color */
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+ a{
+  color:black!important;
+}
+/*insta type of font*/
+
+.brand-logo, h2{
+  font-family: 'Grand Hotel', cursive;
+  font-size:4vw;
+}
+
+/*card styling*/
+
+.auth-card{
+  padding:20px;
+  text-align: center;
+  margin:10px auto;
+  max-width: 400px;
+}
+
+/*gallery*/
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* .post{
+  width:30%;
+} */
+
+.home-card{
+  max-width:25rem;
+  height:max-content;
+  margin:1.5rem auto;
+  box-shadow: 0;
+}
+
+.outer-card {
+  margin-top:10rem;
+}
+
+.material-icons:hover{
+  cursor: pointer;
+}
